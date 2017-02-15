@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home - ikcede.github.io</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Cormorant:400,600i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <div class="top-left corner-section">
+        <span class="title">
+            <a class="plain-link" href="http://ikcede.github.io">ikcede.github.io</a>
+        </span>
+    </div>
+
+    <div class="top-right corner-section">
+        <a class="menu plain-link" href="#" data-toggle="collapse"
+            role="button" data-target="#repoMenu">Repositories</a>
+
+        <div class="collapse" id="repoMenu">
+            <a class="plain-link" href="Bookmarklets/">Bookmarklets</a>
+            <a class="plain-link" href="JS-One-Time-Pad/">One Time Pad</a>
+        </div>
+    </div>
+
+    <!--
+    <div class="bottom-left corner-section">
+        <span class="menu">About</span>
+    </div> -->
+
+    <div class="bottom-right corner-section">
+        <div class="collapse bottom-menu" id="optionsMenu">
+
+            <label for="spin">Spin </label>
+            <input type="checkbox" name="spin" id="spinCheck"/>
+            <br/>
+            <label for="invert">Invert </label>
+            <input type="checkbox" name="invert" id="invertCheck"/>
+            <br/>
+            <label for="pause">Pause </label>
+            <input type="checkbox" name="pause" id="pauseCheck"/>
+        </div>
+
+        <a class="menu plain-link" href="#" data-toggle="collapse"
+            role="button" data-target="#optionsMenu">Options</a>
+    </div>
+
+    <!-- Render this last -->
+    <canvas id="background">
+        <img id="bg" src="img/staticbg.png"/>
+    </canvas>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/three.min.js"></script>
+    <script type="text/javascript" src="js/BuildingGrid.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

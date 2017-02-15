@@ -1,0 +1,104 @@
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+#background {
+    position:fixed;
+    height:100%;
+    width:100%;
+    text-align:center;
+
+    z-index:1;
+}
+
+#bg {
+    margin:auto;
+    width:100%;
+
+    z-index:1;
+}
+
+div {
+    z-index:5;
+}
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+    position:fixed;
+}
+
+.top-left, bottom-left {
+    left:0;
+}
+
+.top-right, .bottom-right {
+    right:0;
+    text-align:right;
+}
+
+.top-left, top-right {
+    top:0;
+}
+
+.bottom-left, .bottom-right {
+    bottom:0;
+}
+
+.corner-section {
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.title {
+    font-family: Cormorant;
+    font-weight: 600;
+    font-style: italic;
+
+    font-size: 1.5em;
+}
+
+.title a:hover, .title a:focus {
+    border-bottom: 1px dashed gray;
+    text-decoration:none;
+}
+
+.plain-link {
+    color: inherit;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.plain-link:hover, .plain-link:focus {
+    color:inherit;
+}
+
+#repoMenu {
+    padding-top:5px;
+    border-right:1px solid grey;
+}
+
+#repoMenu a {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 5px 0;
+    padding: 0 10px;
+    display:block;
+    border-bottom: 1px solid grey;
+}
+
+#repoMenu a:hover {
+
+}
+
+#optionsMenu {
+    width:4.5em;
+}
+
+#optionsMenu label {
+    float:left;
+}
+
+#optionsMenu input {
+    float:right;
+}
