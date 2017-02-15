@@ -1,2 +1,3 @@
 # ikcede.github.io
-Homepage
+
+[Homepage](http://ikcede.github.io)
